@@ -1,101 +1,70 @@
 import React, { useState } from "react";
-import "./App2.css";
-function App2(){
-    return(
-<div className="todoapp stack-large">
-        <h1>TodoMatic</h1>
-        <form>
-          <h2 className="label-wrapper">
-            <label htmlFor="new-todo-input" className="label__lg">
-              What needs to be done?
-            </label>
-          </h2>
-          <input
-            type="text"
-            id="new-todo-input"
-            className="input input__lg"
-            name="text"
-            autoComplete="off"
-          />
-          <button type="submit" className="btn btn_primary btn_lg">
-            Add
-          </button>
-        </form>
-        <div className="filters btn-group stack-exception">
-          <button type="button" className="btn toggle-btn" aria-pressed="true">
-            <span className="visually-hidden">Show </span>
-            <span>all</span>
-            <span className="visually-hidden"> tasks</span>
-          </button>
-          <button type="button" className="btn toggle-btn" aria-pressed="false">
-            <span className="visually-hidden">Show </span>
-            <span>Active</span>
-            <span className="visually-hidden"> tasks</span>
-          </button>
-          <button type="button" className="btn toggle-btn" aria-pressed="false">
-            <span className="visually-hidden">Show </span>
-            <span>Completed</span>
-            <span className="visually-hidden"> tasks</span>
-          </button>
-        </div>
-        <h2 id="list-heading">
-          3 tasks remaining
-        </h2>
-        <ul
-          role="list"
-          className="todo-list stack-large stack-exception"
-          aria-labelledby="list-heading"
-        >
-          <li className="todo stack-small">
-            <div className="c-cb">
-              <input id="todo-0" type="checkbox" defaultChecked={true} />
-              <label className="todo-label" htmlFor="todo-0">
-                Eat
-              </label>
-            </div>
-            <div className="btn-group">
-              <button type="button" className="btn">
-                Edit <span className="visually-hidden">Eat</span>
-              </button>
-              <button type="button" className="btn btn__danger">
-                Delete <span className="visually-hidden">Eat</span>
-              </button>
-            </div>
-          </li>
-          <li className="todo stack-small">
-            <div className="c-cb">
-              <input id="todo-1" type="checkbox" />
-              <label className="todo-label" htmlFor="todo-1">
-                Sleep
-              </label>
-            </div>
-            <div className="btn-group">
-              <button type="button" className="btn">
-                Edit <span className="visually-hidden">Sleep</span>
-              </button>
-              <button type="button" className="btn btn__danger">
-                Delete <span className="visually-hidden">Sleep</span>
-              </button>
-            </div>
-          </li>
-          <li className="todo stack-small">
-            <div className="c-cb">
-              <input id="todo-2" type="checkbox" />
-              <label className="todo-label" htmlFor="todo-2">
-                Repeat
-              </label>
-            </div>
-            <div className="btn-group">
-              <button type="button" className="btn">
-                Edit <span className="visually-hidden">Repeat</span>
-              </button>
-              <button type="button" className="btn btn__danger">
-                Delete <span className="visually-hidden">Repeat</span>
-              </button>
-            </div>
-          </li>
-        </ul>
+import "./App1.css";
+import TodoForm from "./Todoform";
+import TodoList from "./todolist";
+
+const App2 = () => {
+  const [todo, setTodo] = useState("");
+  const [todos, setTodos] = useState([]);
+  const [editId, setEditId] = useState(0);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (editId) {
+      const editTodo = todos.find((i) => i.id === editId);
+      const updatedTodos = todos.map((t) =>
+        t.id === editTodo.id
+          ? (t = { id: t.id, todo })
+          : { id: t.id, todo: t.todo }
+      );
+      setTodos(updatedTodos);
+      setEditId(0);
+      setTodo("");
+      return;
+    }
+
+    if (todo !== "") {
+      setTodos([{ id: `${todo}-${Date.now()}`, todo }, ...todos]);
+      setTodo("");
+    }
+  };
+
+  const handleDelete = (id) => {
+    const delTodo = todos.filter((to) => to.id !== id);
+    setTodos([...delTodo]);
+  };
+
+  const handleEdit = (id) => {
+    const editTodo = todos.find((i) => i.id === id);
+    setTodo(editTodo.todo);
+    setEditId(id);
+  };
+
+  return (
+    <div >
+      <div>
+        
       </div>
-    )
-}
-export default App2
+    <div className="App">
+      <div className="container">
+        <h1>Todo List App-Tsunami</h1>
+        <TodoForm
+          handleSubmit={handleSubmit}
+          todo={todo}
+          editId={editId}
+          setTodo={setTodo}
+        />
+
+        <TodoList
+          todos={todos}
+          handleEdit={handleEdit}
+          handleDelete={handleDelete}
+        />
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default App2;

@@ -83,7 +83,7 @@ function Home(){
 
     </Carousel>
     
-    <div><h5 className="ms-5 mt-3 text-light txt text-center">disaster todo list </h5></div>
+    <div><h5 className="ms-5 mt-3 text-light txt  pb-3">disaster todo list </h5></div>
     
     <div className="d-grid gap-2 mx-auto ms-5">
       <div className="row mb-5 ms-5">
@@ -93,12 +93,12 @@ function Home(){
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to="/App1">
+      <Link to="/App2">
       <button type="button" class="btn   text-dark btn-info" data-bs-toggle="button" autocomplete="off">Tsunami</button>
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to="/App1">
+      <Link to="/App3">
       <button type="button" class="btn   text-dark btn-info" data-bs-toggle="button" autocomplete="off">Cyclone</button>
         </Link>
       </div>
@@ -109,17 +109,17 @@ function Home(){
     <div className="d-grid gap-2 mx-auto pb-5 ms-5">
       <div className="row ms-5 ">
       <div className="col-md-4">
-      <Link to="/App1">
+      <Link to="/App4">
       <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Floods</button>
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to="/App1">
+      <Link to="/App5">
       <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Volcanic eruption</button>
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to="/App1">
+      <Link to="/App6">
       <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Extreme winters</button>
         </Link>
       </div>

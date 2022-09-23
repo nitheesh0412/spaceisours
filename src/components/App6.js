@@ -3,7 +3,7 @@ import "./App1.css";
 import TodoForm from "./Todoform";
 import TodoList from "./todolist";
 
-const App1 = () => {
+const App6 = () => {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const [editId, setEditId] = useState(0);
@@ -48,7 +48,7 @@ const App1 = () => {
       </div>
     <div className="App">
       <div className="container">
-        <h1>Todo List App-Earthquake</h1>
+        <h1>Todo List App-Extreme winters</h1>
         <TodoForm
           handleSubmit={handleSubmit}
           todo={todo}
@@ -67,4 +67,4 @@ const App1 = () => {
   );
 };
 
-export default App1;
+export default App6;

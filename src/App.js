@@ -9,8 +9,12 @@ import About from "./components/About";
 import TodoForm from "./components/Todoform";
 import TodoList from "./components/todolist";
 import App1 from "./components/App1";
-import "./App.css";
 import img from '../src/assets/img.png';
+import App2 from "./components/App2";
+import App3 from "./components/App3";
+import App4 from "./components/App4";
+import App5 from "./components/App5";
+import App6 from "./components/App6";
 
 function App() {
   
@@ -50,6 +54,11 @@ function App() {
             <Route path="/todolist" element={<TodoList />} />
             <Route path="/todoform" element={<TodoForm />} />
             <Route path="/App1" element={<App1 />} />
+            <Route path="/App2" element={<App2 />} />
+            <Route path="/App3" element={<App3 />} />
+            <Route path="/App4" element={<App4 />} />
+            <Route path="/App5" element={<App5 />} />
+            <Route path="/App6" element={<App6 />} />
            
           </Routes>
           </div>

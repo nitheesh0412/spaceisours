@@ -1,7 +1,10 @@
 import React from "react";
-
+import '../App.css';
 const TodoList = ({ todos, handleDelete, handleEdit }) => {
   return (
+    
+
+    
     <ul className="allTodos">
       {todos.map((t) => (
         <li className="singleTodo">
@@ -13,6 +16,7 @@ const TodoList = ({ todos, handleDelete, handleEdit }) => {
         </li>
       ))}
     </ul>
+    
   );
 };
 

@@ -3,7 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #282c34;
+    
+    background-image: url("");
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
   
   .container {
@@ -44,7 +47,7 @@
   .singleTodo {
     border-radius: 50px;
     margin: 10px 0;
-    background-color: #5dadf8;
+    background-color: #2a2d30;
     padding: 10px 20px;
     display: flex;
     width: 450px;
@@ -72,3 +75,6 @@
     float: left;
     margin: 0;
  }
+ .s1{
+    
+  }
