@@ -15,11 +15,10 @@ function App() {
   return (
     <div>
       <div>
-        <h1 class="style">Canopener</h1>
         <>
         <nav className="navbar navbar-expand-lg mx-auto">
-      <div className="container-fluid ">
-     
+      <div className="container-fluid style ">
+      <h1 class="">Canopener</h1>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ms-auto ">
           <li className="nav-item me-3">
