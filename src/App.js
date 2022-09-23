@@ -22,7 +22,7 @@ function App() {
             <Link className="nav-link active text-info"to="Home">Home</Link>
           </li>
           <li className="nav-item me-3">
-            <Link className="nav-link text-info" to="help">Help</Link>
+            <Link className="nav-link text-info" to="help">help desk</Link>
           </li>
           <li className="nav-item me-3 ">
             <Link className="nav-link text-info" to="aboutus">Aboutus</Link>

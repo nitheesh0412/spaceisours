@@ -8,3 +8,9 @@ width:1000px;
 height: 500px;
 
 }
+.help{
+  height: 150px;
+}
+.cen{
+  justify-content: center;
+}
