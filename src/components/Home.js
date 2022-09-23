@@ -81,10 +81,43 @@ function Home(){
             </Carousel.Item>
 
     </Carousel>
-    <div className="">
-    <Link to="/App1">
-          <button>Click</button>
+    
+    <div><h4 className="ms-5 mt-3 ">click on the buttons to create your own custom checklist</h4></div>
+    <div className="row mt-3 ms-5 ">
+      <div className="col-md-4">
+      <Link to="/App1">
+      <button type="button" class="btn btn-secondary text-light btn-lg" data-bs-toggle="button" autocomplete="off">Earthquake</button>
         </Link>
+      </div>
+      <div className="col-md-4">
+      <Link to="/App2">
+      <button type="button" class="btn btn-secondary text-light btn-lg" data-bs-toggle="button" autocomplete="off">Tsunami</button>
+        </Link>
+      </div>
+      <div className="col-md-4">
+      <Link to="/App1">
+      <button type="button" class="btn btn-secondary text-light" data-bs-toggle="button" autocomplete="off">Cyclone</button>
+        </Link>
+      </div>
+
+    </div>
+    <div className="row mt-5 ms-5 ">
+      <div className="col-md-4">
+      <Link to="/App1">
+      <button type="button" class="btn btn-secondary text-light" data-bs-toggle="button" autocomplete="off">Floods</button>
+        </Link>
+      </div>
+      <div className="col-md-4">
+      <Link to="/App1">
+      <button type="button" class="btn btn-secondary text-light" data-bs-toggle="button" autocomplete="off">Volcanic eruption</button>
+        </Link>
+      </div>
+      <div className="col-md-4">
+      <Link to="/App1">
+      <button type="button" class="btn btn-secondary text-light" data-bs-toggle="button" autocomplete="off">Extreme winters</button>
+        </Link>
+      </div>
+
     </div>
         </div>
     )

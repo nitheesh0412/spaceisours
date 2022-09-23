@@ -9,6 +9,7 @@ import About from "./components/About";
 import TodoForm from "./components/todoform";
 import TodoList from "./components/todolist";
 import App1 from "./components/App1";
+import App2 from "./components/App2";
 function App() {
   
   return (
@@ -46,6 +47,7 @@ function App() {
             <Route path="/todolist" element={<TodoList />} />
             <Route path="/todoform" element={<TodoForm />} />
             <Route path="/App1" element={<App1 />} />
+            <Route path="/App2" element={<App2 />} />
           </Routes>
           </div>
        
