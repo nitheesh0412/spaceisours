@@ -15,7 +15,7 @@ function Help(){
 
  
 
-NDRF HELPLINE : 9711077372 , 011-24363260 
+NDRF HELPLINE : 9711077372 , 011-24363260   
  <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=hWSu4l1RxLg" target="_blank" rel="noreferrer">
