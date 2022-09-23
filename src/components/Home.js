@@ -85,7 +85,7 @@ function Home(){
     
     <div><h5 className="ms-5 mt-3 text-light txt text-center">disaster todo list </h5></div>
     
-    <div className="d-grid gap-2 mx-auto">
+    <div className="d-grid gap-2 mx-auto ms-5">
       <div className="row mb-5 ms-5">
       <div className="col-md-4 ">
       <Link to="/App1">
@@ -106,7 +106,7 @@ function Home(){
       
 
     </div>
-    <div className="d-grid gap-2 mx-auto pb-5">
+    <div className="d-grid gap-2 mx-auto pb-5 ms-5">
       <div className="row ms-5 ">
       <div className="col-md-4">
       <Link to="/App1">
