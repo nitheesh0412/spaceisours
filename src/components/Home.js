@@ -90,7 +90,7 @@ function Home(){
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to="/App2">
+      <Link to="/App1">
       <button type="button" class="btn btn-secondary text-light btn-lg" data-bs-toggle="button" autocomplete="off">Tsunami</button>
         </Link>
       </div>
