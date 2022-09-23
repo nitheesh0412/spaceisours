@@ -5,7 +5,7 @@ import './Home.css';
 function Help(){
     return(
             <div> 
-                <div className="row ms-5 me-5 mt-3">
+                <div className="row ms-3 me-3 mt-3">
                     <div className="col-md-3">
                     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" className="help" src="https://www.nasa.gov/sites/default/files/thumbnails/image/15-157b.jpg" />

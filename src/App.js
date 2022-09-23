@@ -9,26 +9,30 @@ import About from "./components/About";
 import TodoForm from "./components/Todoform";
 import TodoList from "./components/Todolist";
 import App1 from "./components/App1";
+import "./App.css";
+import img from '../src/assets/img.png';
+
 function App() {
   
   return (
-    <div>
+    <div className="P2">
+      
       <div>
-        <h1 class="style">Canopener</h1>
         <>
-        <nav className="navbar navbar-expand-lg mx-auto">
-      <div className="container-fluid ">
-     
+        <nav className="navbar navbar-expand-lg  " >
+      <div className="container-fluid bg-light bg-dark">
+        
+      <a class="navbar-brand text-light" href="Home"><img src={img} alt="" width="100px" /> Can Opener</a>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ms-auto ">
           <li className="nav-item me-3">
-            <Link className="nav-link active text-info"to="Home">Home</Link>
+            <Link className="nav-link active text-light"to="Home">Home</Link>
           </li>
           <li className="nav-item me-3">
-            <Link className="nav-link text-info" to="help">Help</Link>
+            <Link className="nav-link text-light" to="help">help desk</Link>
           </li>
           <li className="nav-item me-3 ">
-            <Link className="nav-link text-info" to="aboutus">Aboutus</Link>
+            <Link className="nav-link text-light" to="aboutus">Aboutus</Link>
           </li>
         </ul>
       </div>
@@ -46,6 +50,7 @@ function App() {
             <Route path="/todolist" element={<TodoList />} />
             <Route path="/todoform" element={<TodoForm />} />
             <Route path="/App1" element={<App1 />} />
+           
           </Routes>
           </div>
        
