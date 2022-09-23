@@ -42,13 +42,19 @@ const App4 = () => {
   };
 
   return (
-    <div >
-      <div>
-        
-      </div>
+    <div className="p4">
     <div className="App">
       <div className="container">
         <h1>Todo List App-Floods</h1>
+        <br></br>
+        <ul>
+        <li>Elevate your home from the base while constructing to avoid entry of floodwater or construct walls to stop it.</li>
+        <br></br>
+        <li>Seal the basement walls to let water enter.</li>
+        <br></br>
+        <li>If your home is in very low land, then shift to a safer place and keep all furniture at an elevated level.</li>
+        </ul>
+        <br></br>
         <TodoForm
           handleSubmit={handleSubmit}
           todo={todo}

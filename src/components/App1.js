@@ -42,13 +42,22 @@ const App1 = () => {
   };
 
   return (
-    <div >
+    <div className="p1" >
       <div>
         
       </div>
     <div className="App">
       <div className="container">
         <h1>Todo List App-Earthquake</h1>
+        <br></br>
+        <ul>
+        <li>Make sure you have a fire extinguisher, first aid kit, a battery-powered radio, a flashlight, and extra batteries at home.</li>
+        <br></br>
+        <li>Stay calm! If you're indoors, stay inside. If you're outside, stay outside.</li>
+        <br></br>
+        <li>Stay out of damaged buildings.</li>
+        </ul>
+        <br></br>
         <TodoForm
           handleSubmit={handleSubmit}
           todo={todo}

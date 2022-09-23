@@ -15,6 +15,7 @@ import App3 from "./components/App3";
 import App4 from "./components/App4";
 import App5 from "./components/App5";
 import App6 from "./components/App6";
+import Login from "./components/Login";
 
 function App() {
   
@@ -24,19 +25,22 @@ function App() {
       <div>
         <>
         <nav className="navbar navbar-expand-lg  " >
-      <div className="container-fluid bg-light bg-dark">
+      <div className="container-fluid  bg-muted">
         
-      <a class="navbar-brand text-light" href="Home"><img src={img} alt="" width="100px" /> Can Opener</a>
+      <a class="navbar-brand text-light" href="Home"><img src={img} alt="" width="100px" /> CanOpener</a>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ms-auto ">
           <li className="nav-item me-3">
             <Link className="nav-link active text-light"to="Home">Home</Link>
           </li>
           <li className="nav-item me-3">
-            <Link className="nav-link text-light" to="help">help desk</Link>
+            <Link className="nav-link text-light" to="help">Help</Link>
           </li>
           <li className="nav-item me-3 ">
             <Link className="nav-link text-light" to="aboutus">Aboutus</Link>
+          </li>
+          <li className="nav-item me-3 ">
+            <Link className="nav-link text-light" to="login">Login/signup</Link>
           </li>
         </ul>
       </div>
@@ -59,7 +63,7 @@ function App() {
             <Route path="/App4" element={<App4 />} />
             <Route path="/App5" element={<App5 />} />
             <Route path="/App6" element={<App6 />} />
-           
+           <Route path="/Login" element={<Login/>}/>
           </Routes>
           </div>
        

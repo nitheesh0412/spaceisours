@@ -8,7 +8,7 @@ function Help(){
                 <div className="row ms-3 me-3 mt-3">
                     <div className="col-md-3">
                     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" className="help" src="https://www.nasa.gov/sites/default/files/thumbnails/image/15-157b.jpg" />
+      <Card.Img variant="top" className="help" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDshIqNw4lmsjWeAxtWGGpGERkezQRicaAa9Vf5bQtVA&s" />
       <Card.Body>
         <Card.Title className="cen">Earthquake</Card.Title>
         <Card.Text>
@@ -20,7 +20,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
  <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=hWSu4l1RxLg" target="_blank" rel="noreferrer">
-          <Button className="cen1">Click</Button>
+          <Button className="cen1">watch</Button>
         </a>
       </Card.Body>
     </Card>
@@ -39,7 +39,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
 <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=43M5mZuzHF8" target="_blank" rel="noreferrer">
-          <Button className="cen1">Click</Button>
+          <Button className="cen1">watch</Button>
         </a>
       </Card.Body>
     </Card>
@@ -58,7 +58,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
           <p>click here to watch measures </p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=fQAciMgl-kM" target="_blank" rel="noreferrer">
-          <Button className="cen1">Click</Button>
+          <Button className="cen1">watch</Button>
         </a>
       </Card.Body>
     </Card>
@@ -78,7 +78,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=_iv5mTnM7ww" target="_blank" rel="noreferrer">
             
-            <Button className="cen1">Click</Button>
+            <Button className="cen1">watch</Button>
             
           
         </a>

@@ -42,13 +42,19 @@ const App6 = () => {
   };
 
   return (
-    <div >
-      <div>
-        
-      </div>
+    <div className="p6">
     <div className="App">
       <div className="container">
         <h1>Todo List App-Extreme winters</h1>
+        <br></br>
+        <ul>
+        <li>Minimize travel.</li>
+        <br></br>
+        <li>Stay indoors during the worst part of the extreme cold.</li>
+        <br></br>
+        <li>Wear layers of loose-fitting, lightweight, warm clothing, and a hat.</li>
+        </ul>
+        <br></br>
         <TodoForm
           handleSubmit={handleSubmit}
           todo={todo}

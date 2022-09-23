@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import "./Home.css";
 function Home(){
     return(
-        <div className=""><Carousel>
+        <div><Carousel>
             <Carousel.Item>
             <div className="row ms-5  me-5 mt-3 mb-3">
               <div className="col-md-4">
@@ -83,23 +83,23 @@ function Home(){
 
     </Carousel>
     
-    <div><h5 className="ms-5 mt-3 text-light txt  pb-3">disaster todo list </h5></div>
+    <div><h4 className="ms-5 mt-3 text-light txt  text-center pb-3">Create your custom checklist here!!</h4></div>
     
     <div className="d-grid gap-2 mx-auto ms-5">
       <div className="row mb-5 ms-5">
       <div className="col-md-4 ">
       <Link to="/App1">
-      <button type="button" className="btn  text-dark btn-info   " data-bs-toggle="button" autocomplete="off">Earthquake</button>
+      <button type="button" className="btn  text-dark btn-light   " data-bs-toggle="button" autocomplete="off">Earthquake</button>
         </Link>
       </div>
       <div className="col-md-4">
       <Link to="/App2">
-      <button type="button" class="btn   text-dark btn-info" data-bs-toggle="button" autocomplete="off">Tsunami</button>
+      <button type="button" class="btn   text-dark btn-light" data-bs-toggle="button" autocomplete="off">Tsunami</button>
         </Link>
       </div>
       <div className="col-md-4">
       <Link to="/App3">
-      <button type="button" class="btn   text-dark btn-info" data-bs-toggle="button" autocomplete="off">Cyclone</button>
+      <button type="button" class="btn   text-dark btn-light" data-bs-toggle="button" autocomplete="off">Cyclone</button>
         </Link>
       </div>
       </div>
@@ -110,17 +110,17 @@ function Home(){
       <div className="row ms-5 ">
       <div className="col-md-4">
       <Link to="/App4">
-      <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Floods</button>
+      <button type="button" class="btn btn-secondary  text-dark btn-light" data-bs-toggle="button" autocomplete="off">Floods</button>
         </Link>
       </div>
       <div className="col-md-4">
       <Link to="/App5">
-      <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Volcanic eruption</button>
+      <button type="button" class="btn btn-secondary  text-dark btn-light" data-bs-toggle="button" autocomplete="off">Volcanic eruption</button>
         </Link>
       </div>
       <div className="col-md-4">
       <Link to="/App6">
-      <button type="button" class="btn btn-secondary  text-dark btn-info" data-bs-toggle="button" autocomplete="off">Extreme winters</button>
+      <button type="button" class="btn btn-secondary  text-dark btn-light" data-bs-toggle="button" autocomplete="off">Extreme winters</button>
         </Link>
       </div>
       </div>

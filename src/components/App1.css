@@ -4,11 +4,51 @@
     justify-content: center;
     align-items: center;
     
-    background-image: url("");
+    
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
-  
+  .p1{
+    
+    
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  .p2{
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  .p3{
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  .p4{
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  .p5{
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  .p6{
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
   .container {
     display: flex;
     height: 80vh;
