@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <div>
-        <h1 class="style">Heollo</h1>
+        <h1 class="style">Hello</h1>
         <>
         <nav className="navbar navbar-expand-lg mx-auto">
     <div className="container-fluid ">
