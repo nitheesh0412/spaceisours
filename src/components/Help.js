@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './Home.css';
 function Help(){
     return(
             <div> 
@@ -19,7 +20,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
  <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=hWSu4l1RxLg" target="_blank" rel="noreferrer">
-          <Button className="cen">Click</Button>
+          <Button className="cen1">Click</Button>
         </a>
       </Card.Body>
     </Card>
@@ -38,7 +39,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
 <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=43M5mZuzHF8" target="_blank" rel="noreferrer">
-          <Button className="cen">Click</Button>
+          <Button className="cen1">Click</Button>
         </a>
       </Card.Body>
     </Card>
@@ -57,7 +58,7 @@ NDRF HELPLINE : 9711077372 , 011-24363260
           <p>click here to watch measures </p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=fQAciMgl-kM" target="_blank" rel="noreferrer">
-          <Button className="cen">Click</Button>
+          <Button className="cen1">Click</Button>
         </a>
       </Card.Body>
     </Card>
@@ -76,7 +77,10 @@ NDRF HELPLINE : 9711077372 , 011-24363260
           <p>click here to watch measures</p>
         </Card.Text>
         <a href="https://www.youtube.com/watch?v=_iv5mTnM7ww" target="_blank" rel="noreferrer">
-          <Button className="cen">Click</Button>
+            
+            <Button className="cen1">Click</Button>
+            
+          
         </a>
       </Card.Body>
     </Card>

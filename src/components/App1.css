@@ -59,3 +59,16 @@
   .cen{
     justify-content: center;
   }
+  .h3-size {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  h3, button{
+    float: left;
+    margin: 0;
+ }
